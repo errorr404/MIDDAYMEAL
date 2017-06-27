@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dixit.middaymeal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_screen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".First_page" />
+        <activity android:name=".Browsermdmsite" />
+        <activity android:name=".Webview" />
+        <activity android:name=".webview" />
+        <activity android:name=".webb" />
+        <activity android:name=".Days_selection" />
+        <activity android:name=".Number_of_students" />
+        <activity android:name=".Number_of_student2" />
+        <activity android:name=".Number_of_students3" />
+        <activity android:name=".About_us" />
+    </application>
+
+</manifest>

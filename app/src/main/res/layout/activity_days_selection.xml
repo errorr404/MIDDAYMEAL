@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_days_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mayank"
+    tools:context="com.example.dixit.middaymeal.Days_selection">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:text="   सोमवार  "
+        android:background="@drawable/rounded_corner"
+        android:layout_width="wrap_content"
+        android:textSize="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/button10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="  मंगलवार  "
+        android:background="@drawable/rounded_corner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:textSize="32dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:layout_marginTop="21dp" />
+
+
+    <TextView
+        android:text="Select Day"
+        android:textSize="40dp"
+        android:textColor="#BDBDBD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="    बुधवार   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:id="@+id/button12"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/button11"
+        android:background="@drawable/rounded_corner"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <Button
+        android:text="   शनिवार   "
+        android:layout_width="wrap_content"
+        android:textSize="32dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/button14"
+        android:layout_alignLeft="@+id/button14"
+        android:layout_alignStart="@+id/button14" />
+
+    <Button
+        android:text="   शुक्रवार   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button14"
+        android:textSize="32dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/button13"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignStart="@+id/button13" />
+
+    <Button
+        android:text="   गुरूवार   "
+        android:layout_width="wrap_content"
+        android:textSize="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/button13"
+        android:layout_below="@+id/button12"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+    </RelativeLayout>
+</ScrollView>
